@@ -140,6 +140,12 @@ html[lang=en] h1{letter-spacing:-.7px}html[lang=en] .metric-head{line-height:1.5
 
 /* Personal greeting punctuation. */
 #homeTitle .greeting-dot{color:#000}
+/* Use the application font in every view and in native form controls. */
+body, body *,
+input::file-selector-button,
+input::-webkit-datetime-edit {
+  font-family: var(--font);
+}
 </style>
 </head>
 <body>
